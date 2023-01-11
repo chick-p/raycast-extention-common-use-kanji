@@ -33,7 +33,11 @@
   "scripts": {
     "build": "ray build -e dist",
     "dev": "ray develop",
-    "fix-lint": "ray lint --fix",
-    "lint": "ray lint"
+    "lint": "run-s lint:*",
+    "lint:prettier": "prettier --check .",
+    "lint:eslint": "eslint --ext .js",
+    "fix": "run-s fix:*",
+    "fix:prettier": "prettier -w .",
+    "fix:eslint": "npm run lint:eslint --fix"
   }
 }
