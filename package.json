@@ -19,7 +19,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.69.3"
+    "@raycast/api": "^1.70.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.3.1",
