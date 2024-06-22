@@ -9,17 +9,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
       - uses: actions/setup-node@v4
         with:
           node-version-file: ./.node-version
-          cache: "npm"
+          cache: "pnpm"
 
-      - name: npm ci
-        run: |
-          npm ci
+      - name: Install dependencies
+        run: pnpm install --shamefully-hoist --frozen-lockfile
         env:
           CI: true
 
-      - name: npm run lint
-        run: |
-          npm run lint
+      - name: Run lint
+        run: pnpm run lint
