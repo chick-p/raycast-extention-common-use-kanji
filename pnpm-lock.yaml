@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@raycast/api':
-        specifier: ^1.81.2
-        version: 1.81.2
+        specifier: ^1.82.3
+        version: 1.82.3
     devDependencies:
       eslint:
         specifier: ^9.9.1
@@ -82,8 +82,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@raycast/api@1.81.2':
-    resolution: {integrity: sha512-zjtcgepz/BVJDx0XXtqHh6LmuYff5YclECPpARUFEWklgsgkZ2ciMEZ8ApVS0tgSYOqznkcDbHeghP2hlJjt9Q==}
+  '@raycast/api@1.82.3':
+    resolution: {integrity: sha512-+zIXZ+1HHV7g8aFrQ5mVknff4MpbPH9Q59MYQHrj+ReQyl133xPlYqh4Sr/WpXHPkSCmanrJmvKFQULFEGS3TQ==}
     hasBin: true
     peerDependencies:
       '@types/node': 20.8.10
@@ -1009,7 +1009,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@raycast/api@1.81.2':
+  '@raycast/api@1.82.3':
     dependencies:
       react: 18.3.1
 
