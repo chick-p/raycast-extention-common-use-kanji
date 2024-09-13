@@ -22,13 +22,13 @@
     "@raycast/api": "^1.82.3"
   },
   "devDependencies": {
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.9.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4",
-    "typescript-eslint": "^8.4.0"
+    "typescript-eslint": "^8.5.0"
   },
   "scripts": {
     "build": "ray build -e dist",
