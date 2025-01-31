@@ -19,7 +19,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.89.1"
+    "@raycast/api": "^1.90.0"
   },
   "devDependencies": {
     "eslint": "^9.19.0",
