@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@raycast/api':
-        specifier: ^1.94.3
-        version: 1.94.3
+        specifier: ^1.95.0
+        version: 1.95.0
     devDependencies:
       eslint:
         specifier: ^9.24.0
@@ -393,12 +393,12 @@ packages:
     resolution: {integrity: sha512-RWSWtCFVObRmCwgxVOye3lsYbPHTnB7G4He5LEAg2tf600Sil5yXEOL/ULx1TqL/XOQxKqRvmLn/rLQOMT85YA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-not-found@3.2.48':
-    resolution: {integrity: sha512-H2y3PtiU/MYZXvvWUR0vr4PCoSSsN8inGDlLgLxQ4q+osAlJ256RxKCVMsSJG9fWt+Pg/+wrLzpx0OsbyVOi9g==}
+  '@oclif/plugin-not-found@3.2.49':
+    resolution: {integrity: sha512-3V74/O5aFAqTTCJ7+X04M6vmt59Dk8HimB2uOlGgJrR7yLMW9JsVWKpDZZ6fl1hfd5kK9Jn4oaEt/1LuwfW1wQ==}
     engines: {node: '>=18.0.0'}
 
-  '@raycast/api@1.94.3':
-    resolution: {integrity: sha512-f1d8Tafpc5ZbG9GALzPOmlr3wArjHl6AuylwPys5iFtoRGVWhNr0DWoFjvw3iFd/Or92vqCydH7py9JELKdlJg==}
+  '@raycast/api@1.95.0':
+    resolution: {integrity: sha512-uf12AUd7QiMG6LUGCRZNImdFe1sAOijNRSwMqRb/vAomusOBueORsukNhrfaKpmrufiYNvUoRDssVclJcvsYgw==}
     engines: {node: '>=22.14.0'}
     hasBin: true
     peerDependencies:
@@ -1677,7 +1677,7 @@ snapshots:
     dependencies:
       '@oclif/core': 4.2.10
 
-  '@oclif/plugin-not-found@3.2.48':
+  '@oclif/plugin-not-found@3.2.49':
     dependencies:
       '@inquirer/prompts': 7.4.1
       '@oclif/core': 4.2.10
@@ -1686,12 +1686,12 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@raycast/api@1.94.3':
+  '@raycast/api@1.95.0':
     dependencies:
       '@oclif/core': 4.2.10
       '@oclif/plugin-autocomplete': 3.2.27
       '@oclif/plugin-help': 6.2.27
-      '@oclif/plugin-not-found': 3.2.48
+      '@oclif/plugin-not-found': 3.2.49
       esbuild: 0.25.2
       react: 19.0.0
     transitivePeerDependencies:
