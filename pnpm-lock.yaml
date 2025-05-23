@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@raycast/api':
-        specifier: ^1.98.5
-        version: 1.98.5
+        specifier: ^1.99.2
+        version: 1.99.2
     devDependencies:
       eslint:
         specifier: ^9.27.0
@@ -393,8 +393,8 @@ packages:
     resolution: {integrity: sha512-SpT6zcKA7ojCE5ZI2wTWMu0oI4Owd2p8OwCfWRi24I4Wj6rNHf3uBz76oU1b1btm/WYgc6K5Eq91Sj+1xoRKig==}
     engines: {node: '>=18.0.0'}
 
-  '@raycast/api@1.98.5':
-    resolution: {integrity: sha512-vWIukLMPL8EBUquT7tUv7GQblrzh1TXlrNlrbEseBglUG7HaOUB0hLLhZ5ipmCIzR1HshTASQdftHIY2MfU0TQ==}
+  '@raycast/api@1.99.2':
+    resolution: {integrity: sha512-ImIWD41ckac4agvbgyg+HydnPRXWf5mkKb34feuFpUjoIZMYJDt6RM1xOElKsVq0Az8aqMFH1RM/A6HxlYTXlQ==}
     engines: {node: '>=22.14.0'}
     hasBin: true
     peerDependencies:
@@ -1682,7 +1682,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@raycast/api@1.98.5':
+  '@raycast/api@1.99.2':
     dependencies:
       '@oclif/core': 4.3.0
       '@oclif/plugin-autocomplete': 3.2.29
