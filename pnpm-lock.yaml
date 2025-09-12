@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@raycast/api':
-        specifier: ^1.102.6
-        version: 1.102.6
+        specifier: ^1.102.7
+        version: 1.102.7
     devDependencies:
       eslint:
         specifier: ^9.34.0
@@ -398,8 +398,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@oclif/core@4.5.2':
-    resolution: {integrity: sha512-eQcKyrEcDYeZJKu4vUWiu0ii/1Gfev6GF4FsLSgNez5/+aQyAUCjg3ZWlurf491WiYZTXCWyKAxyPWk8DKv2MA==}
+  '@oclif/core@4.5.3':
+    resolution: {integrity: sha512-ISoFlfmsuxJvNKXhabCO4/KqNXDQdLHchZdTPfZbtqAsQbqTw5IKitLVZq9Sz1LWizN37HILp4u0350B8scBjg==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.2.34':
@@ -410,12 +410,12 @@ packages:
     resolution: {integrity: sha512-LrmMdo9EMJciOvF8UurdoTcTMymv5npKtxMAyonZvhSvGR8YwCKnuHIh00+SO2mNtGOYam7f4xHnUmj2qmanyA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-not-found@3.2.66':
-    resolution: {integrity: sha512-f3GmQrq13egIRc8+1aiFGsGUkNCIUv8nxJodmUicCC2BV6dg+KSY/5v3DicDBdni/HisKYt92S+OelAxQiN0EQ==}
+  '@oclif/plugin-not-found@3.2.67':
+    resolution: {integrity: sha512-Q2VluSwTrh7Sk0ey88Lk5WSATn9AZ6TjYQIyt2QrQolOBErAgpDoDSMVRYuVNtjxPBTDBzz4MM54QRFa/nN4IQ==}
     engines: {node: '>=18.0.0'}
 
-  '@raycast/api@1.102.6':
-    resolution: {integrity: sha512-P6j4nSOJe8wlsaf8gU/fsEnB4/oO8AXywcX3NiVQGiG9PWb/OyCCWQA8SFNdARsYyzNsJRlR+XRfMVzCBNv8Rw==}
+  '@raycast/api@1.102.7':
+    resolution: {integrity: sha512-g/uIoRJFaNz5/TTHOG8OM9+XSCQq33l+oVIg+NytmA3GkXLEkNQOa3pem4TxcXrtESqJbE6xl6bzcUsQGCqRfA==}
     engines: {node: '>=22.14.0'}
     hasBin: true
     peerDependencies:
@@ -1414,8 +1414,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tinyglobby@0.2.14:
-    resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
+  tinyglobby@0.2.15:
+    resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
 
   to-regex-range@5.0.1:
@@ -1775,7 +1775,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@oclif/core@4.5.2':
+  '@oclif/core@4.5.3':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.17.0
@@ -1791,14 +1791,14 @@ snapshots:
       semver: 7.7.2
       string-width: 4.2.3
       supports-color: 8.1.1
-      tinyglobby: 0.2.14
+      tinyglobby: 0.2.15
       widest-line: 3.1.0
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
   '@oclif/plugin-autocomplete@3.2.34':
     dependencies:
-      '@oclif/core': 4.5.2
+      '@oclif/core': 4.5.3
       ansis: 3.17.0
       debug: 4.4.1(supports-color@8.1.1)
       ejs: 3.1.10
@@ -1807,23 +1807,23 @@ snapshots:
 
   '@oclif/plugin-help@6.2.32':
     dependencies:
-      '@oclif/core': 4.5.2
+      '@oclif/core': 4.5.3
 
-  '@oclif/plugin-not-found@3.2.66':
+  '@oclif/plugin-not-found@3.2.67':
     dependencies:
       '@inquirer/prompts': 7.8.4
-      '@oclif/core': 4.5.2
+      '@oclif/core': 4.5.3
       ansis: 3.17.0
       fast-levenshtein: 3.0.0
     transitivePeerDependencies:
       - '@types/node'
 
-  '@raycast/api@1.102.6':
+  '@raycast/api@1.102.7':
     dependencies:
-      '@oclif/core': 4.5.2
+      '@oclif/core': 4.5.3
       '@oclif/plugin-autocomplete': 3.2.34
       '@oclif/plugin-help': 6.2.32
-      '@oclif/plugin-not-found': 3.2.66
+      '@oclif/plugin-not-found': 3.2.67
       esbuild: 0.25.9
       react: 19.0.0
     transitivePeerDependencies:
@@ -2966,7 +2966,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tinyglobby@0.2.14:
+  tinyglobby@0.2.15:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
