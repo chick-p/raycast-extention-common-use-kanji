@@ -18,9 +18,6 @@
       "mode": "view"
     }
   ],
-  "dependencies": {
-    "@raycast/api": "^1.103.3"
-  },
   "devDependencies": {
     "eslint": "^9.37.0",
     "eslint-config-prettier": "^10.1.8",
@@ -39,5 +36,8 @@
     "fix": "run-s fix:*",
     "fix:prettier": "prettier -w .",
     "fix:eslint": "npm run lint:eslint --fix"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.104.7"
   }
 }
