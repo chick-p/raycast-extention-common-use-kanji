@@ -13,25 +13,25 @@ importers:
         version: 1.104.7
     devDependencies:
       eslint:
-        specifier: ^9.39.3
+        specifier: ^9.37.0
         version: 9.39.3
       eslint-config-prettier:
         specifier: ^10.1.8
         version: 10.1.8(eslint@9.39.3)
       globals:
-        specifier: ^16.5.0
+        specifier: ^16.4.0
         version: 16.5.0
       npm-run-all2:
         specifier: ^8.0.4
         version: 8.0.4
       prettier:
-        specifier: ^3.8.1
+        specifier: ^3.6.2
         version: 3.8.1
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
       typescript-eslint:
-        specifier: ^8.56.1
+        specifier: ^8.46.0
         version: 8.56.1(eslint@9.39.3)(typescript@5.9.3)
 
 packages:
