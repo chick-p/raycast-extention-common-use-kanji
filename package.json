@@ -21,7 +21,7 @@
   "devDependencies": {
     "eslint": "^9.37.0",
     "eslint-config-prettier": "^10.1.8",
-    "globals": "^16.4.0",
+    "globals": "^17.6.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "typescript": "^5.9.3",
