@@ -26,7 +26,7 @@
     "npm-run-all2": "^9.0.0",
     "prettier": "^3.8.3",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.60.0"
   },
   "scripts": {
     "build": "ray build -e dist",
