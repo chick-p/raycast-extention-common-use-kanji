@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@raycast/api':
-        specifier: ^1.104.20
-        version: 1.104.20
+        specifier: ^1.104.22
+        version: 1.104.22
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -404,8 +404,8 @@ packages:
     resolution: {integrity: sha512-5YTKSpuV77910/iGnGsj0fr9kOazCy/h1brki1CocbfawdvaVPedcwCH25wMcdRfo8mFD656bG9/kdki/+Wb9A==}
     engines: {node: '>=18.0.0'}
 
-  '@raycast/api@1.104.20':
-    resolution: {integrity: sha512-Hcvt0OVjdjBFLtb9rNQjRBL7FAZBF3mlU17y2TgCdNolkeGixfJdMb7idfiILfgoNa94gj4C+M/MZn1tf/q4Dg==}
+  '@raycast/api@1.104.22':
+    resolution: {integrity: sha512-t4HwubTb1qpbaxdP8mu62Ugd1qYgcOM4Lc4+7EsxPPm7g3g5xlarH+MG+/kQEGrUukctGwrNL8S6VCVnuGIutw==}
     engines: {node: '>=22.22.2'}
     hasBin: true
     peerDependencies:
@@ -531,8 +531,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  brace-expansion@2.1.1:
-    resolution: {integrity: sha512-WR1cURNjuvBLMZBMbqM0UoE+WAfdUcEV1ccD8PVBVOI+Z3ND4+SZbN8RsfT2bMuG1qwz5RFvPukSZm5fF2D5eA==}
+  brace-expansion@2.1.2:
+    resolution: {integrity: sha512-w5JZcKgdhDOgOwm8H+KgbosopHMuGcl6qbulwjtz3SM7I7P3yW1eAjzMPLrIE+NQ9vjgANKHWeMHnrT0OXW1oA==}
 
   brace-expansion@5.0.7:
     resolution: {integrity: sha512-7oFy703dxfY3/NLxC1fh2SUCQ0H9rmAY+5EpDVfXjUTTs+HEwR2nYaqLv+GWcTsumwxPfiz6CzCNkwXwBUwqCA==}
@@ -1245,7 +1245,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@raycast/api@1.104.20':
+  '@raycast/api@1.104.22':
     dependencies:
       '@oclif/core': 4.11.14
       '@oclif/plugin-autocomplete': 3.2.53
@@ -1386,7 +1386,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  brace-expansion@2.1.1:
+  brace-expansion@2.1.2:
     dependencies:
       balanced-match: 1.0.2
 
@@ -1642,7 +1642,7 @@ snapshots:
 
   minimatch@5.1.9:
     dependencies:
-      brace-expansion: 2.1.1
+      brace-expansion: 2.1.2
 
   ms@2.1.3: {}
 
