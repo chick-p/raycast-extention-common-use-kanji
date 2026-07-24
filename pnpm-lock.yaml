@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@raycast/api':
-        specifier: ^1.104.22
-        version: 1.104.22
+        specifier: ^1.104.23
+        version: 1.104.23
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -388,8 +388,8 @@ packages:
       '@types/node':
         optional: true
 
-  '@oclif/core@4.11.14':
-    resolution: {integrity: sha512-cZ5Ktd+rT0PO+o7KBH4vRFTgg+xMLf8F41WK39p8MkXEViZA/Qqe+4lzZT6102zgUxMORET1HtF9t5w8CB3tnQ==}
+  '@oclif/core@4.13.0':
+    resolution: {integrity: sha512-j3NKgXE3qd0gvSYsCqDLb3VhW5KEg030VQhMnv5c0qNzPp6jBmF7cCDIQG4ROZIOqEfGbUoDDMAAzaC30vV99g==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.2.53':
@@ -404,8 +404,8 @@ packages:
     resolution: {integrity: sha512-5YTKSpuV77910/iGnGsj0fr9kOazCy/h1brki1CocbfawdvaVPedcwCH25wMcdRfo8mFD656bG9/kdki/+Wb9A==}
     engines: {node: '>=18.0.0'}
 
-  '@raycast/api@1.104.22':
-    resolution: {integrity: sha512-t4HwubTb1qpbaxdP8mu62Ugd1qYgcOM4Lc4+7EsxPPm7g3g5xlarH+MG+/kQEGrUukctGwrNL8S6VCVnuGIutw==}
+  '@raycast/api@1.104.23':
+    resolution: {integrity: sha512-8ZdL9Jhc7C/+nQkUIM78pP0ODPR6wVvPjgg0uU6+n5hEaYABmrCIyA/gFcjfAYjU6EUFV2ZDHp6JNPFjQNyBWQ==}
     engines: {node: '>=22.22.2'}
     hasBin: true
     peerDependencies:
@@ -1202,7 +1202,7 @@ snapshots:
 
   '@inquirer/type@3.0.10': {}
 
-  '@oclif/core@4.11.14':
+  '@oclif/core@4.13.0':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.17.0
@@ -1225,7 +1225,7 @@ snapshots:
 
   '@oclif/plugin-autocomplete@3.2.53':
     dependencies:
-      '@oclif/core': 4.11.14
+      '@oclif/core': 4.13.0
       ansis: 3.17.0
       debug: 4.4.3(supports-color@8.1.1)
       ejs: 3.1.10
@@ -1234,20 +1234,20 @@ snapshots:
 
   '@oclif/plugin-help@6.2.53':
     dependencies:
-      '@oclif/core': 4.11.14
+      '@oclif/core': 4.13.0
 
   '@oclif/plugin-not-found@3.2.88':
     dependencies:
       '@inquirer/prompts': 7.10.1
-      '@oclif/core': 4.11.14
+      '@oclif/core': 4.13.0
       ansis: 3.17.0
       fast-levenshtein: 3.0.0
     transitivePeerDependencies:
       - '@types/node'
 
-  '@raycast/api@1.104.22':
+  '@raycast/api@1.104.23':
     dependencies:
-      '@oclif/core': 4.11.14
+      '@oclif/core': 4.13.0
       '@oclif/plugin-autocomplete': 3.2.53
       '@oclif/plugin-help': 6.2.53
       '@oclif/plugin-not-found': 3.2.88
