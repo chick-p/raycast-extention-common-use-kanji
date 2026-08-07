@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@raycast/api':
-        specifier: ^1.104.23
-        version: 1.104.23
+        specifier: ^1.104.24
+        version: 1.104.24
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -388,24 +388,24 @@ packages:
       '@types/node':
         optional: true
 
-  '@oclif/core@4.13.0':
-    resolution: {integrity: sha512-j3NKgXE3qd0gvSYsCqDLb3VhW5KEg030VQhMnv5c0qNzPp6jBmF7cCDIQG4ROZIOqEfGbUoDDMAAzaC30vV99g==}
+  '@oclif/core@4.13.3':
+    resolution: {integrity: sha512-wBp2igI2KVwq2ZmpnfmGtOROo7aXZIr3OEtAS16g1wHFBqyEuswL+9K50NJWJvlpAmxd+4dVj/ycawXESU3wQQ==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-autocomplete@3.2.53':
-    resolution: {integrity: sha512-cGAgN9ujTDxa6C84d6XNVsmoFnDFfHwdiykAnAfym3oBLxoXBNYMZhmfnZ8KBWDy/r/DYf11BrGJwqKl2P0iSA==}
+  '@oclif/plugin-autocomplete@3.2.55':
+    resolution: {integrity: sha512-3s3xLlfHarctGcZt8HlbDeEIoOCcsjAzHvvq8pHTy8LpQNag78DwXgvUwFE/RtTme8ahTZEBteD5IPN/B2NTgQ==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-help@6.2.53':
-    resolution: {integrity: sha512-njx2nTH87EQEEuz4ShNtL0gzzN981MRkDPqScbu+Tkd7NpIv30OHdTjQK1GzGtkf+V2RvSYIrX+LrLsUVh9DJw==}
+  '@oclif/plugin-help@6.2.56':
+    resolution: {integrity: sha512-0LkCjFGRGY7AaZb5p8gDcSPNkFrn+vNLKvGe1f7j/Z6U9Uy1cV6R2eWVsjuZTGQ3RvBvjquFPwLy1jTgR5l87w==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-not-found@3.2.88':
-    resolution: {integrity: sha512-5YTKSpuV77910/iGnGsj0fr9kOazCy/h1brki1CocbfawdvaVPedcwCH25wMcdRfo8mFD656bG9/kdki/+Wb9A==}
+  '@oclif/plugin-not-found@3.2.92':
+    resolution: {integrity: sha512-Fgamrm4o1lgH101mRHNwe6lw8VYZZ+E8frfqHq6hnSZME832/F0zCHv84MlOpw8ec9ub8dztg21OHi2jaMvE/g==}
     engines: {node: '>=18.0.0'}
 
-  '@raycast/api@1.104.23':
-    resolution: {integrity: sha512-8ZdL9Jhc7C/+nQkUIM78pP0ODPR6wVvPjgg0uU6+n5hEaYABmrCIyA/gFcjfAYjU6EUFV2ZDHp6JNPFjQNyBWQ==}
+  '@raycast/api@1.104.24':
+    resolution: {integrity: sha512-Jppfyi1T7wcGXZFxpzXuvNAKUPQ+BQkKC0N3rJBz1epp/z22SH9aLA23YZRk/ickGwEm6DI/7OY7Jin8dD53Sg==}
     engines: {node: '>=22.22.2'}
     hasBin: true
     peerDependencies:
@@ -1202,7 +1202,7 @@ snapshots:
 
   '@inquirer/type@3.0.10': {}
 
-  '@oclif/core@4.13.0':
+  '@oclif/core@4.13.3':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.17.0
@@ -1223,34 +1223,34 @@ snapshots:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/plugin-autocomplete@3.2.53':
+  '@oclif/plugin-autocomplete@3.2.55':
     dependencies:
-      '@oclif/core': 4.13.0
+      '@oclif/core': 4.13.3
       ansis: 3.17.0
       debug: 4.4.3(supports-color@8.1.1)
       ejs: 3.1.10
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/plugin-help@6.2.53':
+  '@oclif/plugin-help@6.2.56':
     dependencies:
-      '@oclif/core': 4.13.0
+      '@oclif/core': 4.13.3
 
-  '@oclif/plugin-not-found@3.2.88':
+  '@oclif/plugin-not-found@3.2.92':
     dependencies:
       '@inquirer/prompts': 7.10.1
-      '@oclif/core': 4.13.0
+      '@oclif/core': 4.13.3
       ansis: 3.17.0
       fast-levenshtein: 3.0.0
     transitivePeerDependencies:
       - '@types/node'
 
-  '@raycast/api@1.104.23':
+  '@raycast/api@1.104.24':
     dependencies:
-      '@oclif/core': 4.13.0
-      '@oclif/plugin-autocomplete': 3.2.53
-      '@oclif/plugin-help': 6.2.53
-      '@oclif/plugin-not-found': 3.2.88
+      '@oclif/core': 4.13.3
+      '@oclif/plugin-autocomplete': 3.2.55
+      '@oclif/plugin-help': 6.2.56
+      '@oclif/plugin-not-found': 3.2.92
       esbuild: 0.27.7
       react: 19.0.0
     transitivePeerDependencies:
