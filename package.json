@@ -39,6 +39,6 @@
     "fix:eslint": "npm run lint:eslint --fix"
   },
   "dependencies": {
-    "@raycast/api": "^2.2.0"
+    "@raycast/api": "^2.4.1"
   }
 }
