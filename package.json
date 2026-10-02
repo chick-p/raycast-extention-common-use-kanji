@@ -24,9 +24,9 @@
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.12.0",
     "npm-run-all2": "^9.0.3",
-    "prettier": "^3.9.8",
+    "prettier": "^3.9.9",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.70.1"
+    "typescript-eslint": "^8.71.0"
   },
   "scripts": {
     "build": "ray build -e dist",
