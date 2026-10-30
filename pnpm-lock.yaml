@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@raycast/api':
         specifier: ^2.8.2
-        version: 2.8.2(@types/node@26.6.5)(@types/react@19.0.10)(supports-color@8.1.1)
+        version: 2.8.2(@types/node@26.6.5)(@types/react@19.3.0)(supports-color@8.1.1)
       react:
-        specifier: 19.0.0
-        version: 19.0.0
+        specifier: 19.3.1
+        version: 19.3.1
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -22,8 +22,8 @@ importers:
         specifier: 26.6.5
         version: 26.6.5
       '@types/react':
-        specifier: 19.0.10
-        version: 19.0.10
+        specifier: 19.3.0
+        version: 19.3.0
       eslint:
         specifier: ^10.13.0
         version: 10.13.0(supports-color@8.1.1)
@@ -456,8 +456,8 @@ packages:
   '@types/node@26.6.5':
     resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
 
-  '@types/react@19.0.10':
-    resolution: {integrity: sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@typescript-eslint/eslint-plugin@8.72.1':
     resolution: {integrity: sha512-5CokTWXpmbylfFabsbvHC0CAw3XLaGnoa+nFJX5FR592h/LoZsENUE6p/rg5xvkKrFEXz6pYmgI29AgXc2N3BQ==}
@@ -920,6 +920,10 @@ packages:
     resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
     engines: {node: '>=0.10.0'}
 
+  react@19.3.1:
+    resolution: {integrity: sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==}
+    engines: {node: '>=0.10.0'}
+
   read-package-json-fast@6.0.0:
     resolution: {integrity: sha512-PNaGjoCnw9DBA2Kl8D+8po957z778q/HOPuY2u3Bkw/JO3eC8MDx7jn/PgMtSgpcBbs+6UOjDbwReGpXmRvs0g==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
@@ -1355,7 +1359,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@raycast/api@2.8.2(@types/node@26.6.5)(@types/react@19.0.10)(supports-color@8.1.1)':
+  '@raycast/api@2.8.2(@types/node@26.6.5)(@types/react@19.3.0)(supports-color@8.1.1)':
     dependencies:
       '@oclif/core': 4.14.0
       '@oclif/plugin-autocomplete': 3.3.0(supports-color@8.1.1)
@@ -1365,7 +1369,7 @@ snapshots:
       react: 19.0.0
     optionalDependencies:
       '@types/node': 26.6.5
-      '@types/react': 19.0.10
+      '@types/react': 19.3.0
     transitivePeerDependencies:
       - supports-color
 
@@ -1379,7 +1383,7 @@ snapshots:
     dependencies:
       undici-types: 8.9.0
 
-  '@types/react@19.0.10':
+  '@types/react@19.3.0':
     dependencies:
       csstype: 3.2.3
 
@@ -1847,6 +1851,8 @@ snapshots:
       hookified: 2.2.0
 
   react@19.0.0: {}
+
+  react@19.3.1: {}
 
   read-package-json-fast@6.0.0:
     dependencies:
