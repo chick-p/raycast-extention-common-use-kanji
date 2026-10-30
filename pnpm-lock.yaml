@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@raycast/api':
-        specifier: ^2.8.2
-        version: 2.8.2(@types/node@26.6.5)(@types/react@19.0.10)(supports-color@8.1.1)
+        specifier: ^2.9.0
+        version: 2.9.0(@types/node@26.6.5)(@types/react@19.0.10)(supports-color@8.1.1)
       react:
         specifier: 19.0.0
         version: 19.0.0
@@ -428,8 +428,8 @@ packages:
     resolution: {integrity: sha512-GbdWJOmmBO3xmrVjDXeWG7tXl4vzeGZ+af9ztCfAmhOPEkd/+eeAAadzQPeZoygedqCvsdux3QLq9/MAxusPKg==}
     engines: {node: '>=18.0.0'}
 
-  '@raycast/api@2.8.2':
-    resolution: {integrity: sha512-lJ9586eWj0z+DRi9BiiR9d7FDuB1FhMwblfIl/yHl1hKwg8gZz+HtSPzw9XqnG7qytHULy2EqqweJRLvCQdzJA==}
+  '@raycast/api@2.9.0':
+    resolution: {integrity: sha512-qgrUBjBmpb6RX1ckzeKFIvSfsupXXI9ZNp0aai2rxuDEB+k2uKD46ORKiqpndtKWy37AUtDMUPtoSKHyMa8ZjQ==}
     engines: {node: '>=22.22.2'}
     hasBin: true
     peerDependencies:
@@ -1355,7 +1355,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@raycast/api@2.8.2(@types/node@26.6.5)(@types/react@19.0.10)(supports-color@8.1.1)':
+  '@raycast/api@2.9.0(@types/node@26.6.5)(@types/react@19.0.10)(supports-color@8.1.1)':
     dependencies:
       '@oclif/core': 4.14.0
       '@oclif/plugin-autocomplete': 3.3.0(supports-color@8.1.1)
